@@ -16,6 +16,11 @@ class Main {
     }
 
     static void solve(long a, long b) {
-
+        long product = a * b;
+        if (product % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
     }
 }
