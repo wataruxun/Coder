@@ -10,6 +10,7 @@ class Main {
         final Scanner sc = new Scanner(System.in);
         long a;
         a = sc.nextLong();
+        System.out.println(a);
         long b;
         b = sc.nextLong();
         solve(a, b);
