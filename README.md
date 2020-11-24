@@ -17,7 +17,7 @@
 
 ### [ABC184](https://atcoder.jp/contests/abc184)参加 - 2020/11/22
 
-順位:6145/7771
+順位：**6145**th / 7771 (Rating：6(灰))
 
 [ソースコード](./atcoder/abc184)
 
