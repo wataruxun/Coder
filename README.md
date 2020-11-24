@@ -32,6 +32,10 @@
 
 ## 成長日記(過去問など)
 
+### 2020/11/24
+
+- 解き直し：[abc-184-c](https://atcoder.jp/contests/abc184/tasks/abc184_c)
+
 ### 2020/11/19
 
 - 演習：[abc-085-b](https://atcoder.jp/contests/abc085/tasks/abc085_b)
