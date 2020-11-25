@@ -17,7 +17,7 @@
 
 ### [ABC184](https://atcoder.jp/contests/abc184)参加 - 2020/11/22
 
-順位：**6145**th / 7771 (Rating：6(灰))
+順位：**6145**th / 7771 (Rating：0 -> 6(灰))
 
 [ソースコード](./atcoder/abc184)
 
@@ -34,7 +34,7 @@
 
 ### 2020/11/24
 
-- 解き直し：[abc-184-c](https://atcoder.jp/contests/abc184/tasks/abc184_c)
+- 解き直し：[abc-184-c](https://atcoder.jp/contests/abc184/tasks/abc184_c)(理解したつもりなのに 2WA)
 
 ### 2020/11/19
 
