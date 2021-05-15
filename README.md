@@ -6,7 +6,7 @@
 
 ### Atcoder
 
-アカウント：[wmkisaragi](https://atcoder.jp/users/wmkisaragi)
+アカウント：[wataruxun](https://atcoder.jp/users/wataruxun)
 
 ※表記例
 
