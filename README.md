@@ -47,6 +47,10 @@
 
 ## 成長日記(過去問など)
 
+### 202X/MM/dd
+タスク
+- 演習：[abc-049-c](https://atcoder.jp/contests/abc184/tasks/abc049_c)
+
 ### 2020/11/24
 
 - 解き直し：[abc-184-c](https://atcoder.jp/contests/abc184/tasks/abc184_c)(理解したつもりなのに 2WA)
