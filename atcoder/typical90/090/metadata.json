@@ -1,9 +1,9 @@
 {
- "code_filename": "main.py",
+ "code_filename": "main.java",
  "judge": {
   "judge_type": "normal"
  },
- "lang": "python",
+ "lang": "java",
  "problem": {
   "alphabet": "090",
   "contest": {

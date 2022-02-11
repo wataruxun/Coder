@@ -1,11 +1,11 @@
 {
- "code_filename": "main.py",
+ "code_filename": "main.java",
  "judge": {
   "diff": 1e-07,
   "error_type": "absolute_or_relative",
   "judge_type": "decimal"
  },
- "lang": "python",
+ "lang": "java",
  "problem": {
   "alphabet": "018",
   "contest": {
