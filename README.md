@@ -28,7 +28,7 @@
 | C-Coupon              | 0/300   | -        | 条件出しがうまくできなかった。終盤に条件わけがある程度できたがうまく実装ができなかったし時間が足りなかった。 |
 | D-2-variable Function | -/400   | -        | No look                                                                                                      |
 | E-Bishop 2            | -/500   | -        | No look                                                                                                      |
-| F-typewriter          | -/600   | -        | No look                                                                                                      |
+| F-typewriter          | -/500   | -        | No look                                                                                                      |
 | G-Game on Tree 3      | -/600   | -        | No look                                                                                                      |
 | Ex-01? Queries        | -/600   | -        | No look                                                                                                      |
 
