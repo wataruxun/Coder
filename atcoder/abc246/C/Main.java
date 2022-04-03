@@ -3,35 +3,44 @@ import java.util.*;
 class Main {
     public static void main(String[] args) throws Exception {
         final Scanner sc = new Scanner(System.in);
-        int N;
-        N = sc.nextInt();
-        int K;
-        K = sc.nextInt();
-        int X;
-        X = sc.nextInt();
-        int[] A = new int[(int)(N)];
+        long N;
+        N = sc.nextLong();
+        long K;
+        K = sc.nextLong();
+        long X;
+        X = sc.nextLong();
+        long[] A = new long[(int)(N)];
         for(int i = 0 ; i < N ; i++){
-            A[i] = sc.nextInt();
-            if(A[i]>K&&K>0){
-                for(int j = 0; j<K;j++){
-                    if(A[i]<K) break;
-                    A[i] -= X;
-                    if(K==0)break;
-                    K--;
-                }
-            }
+            A[i] = sc.nextLong();
         }
         solve(N, K, X, A);
     }
 
-    static void solve(int N, int K, int X, int[] A){
-        Arrays.sort(A);
-        for(int i = 0; i < K; i++){
-            if(N-1-i>0) break;
-            A[N-1-i] = 0;
+    static void solve(long N, long K, long X, long[] A){
+        long sum = 0;
+        for(int i = 0; i < N; i++){
+            sum += A[i];
         }
+
+        long m = 0;
+        for(int i = 0; i < N; i ++){
+            m += A[i]/X;
+        }
+        m = Math.min(m, K);
+        sum -= m*X;
+        K -= m;
+
+        for(int i = 0; i < N; i++){
+            A[i] %= X;
+        }
+
+        Arrays.sort(A);
         
-        int sum = Arrays.stream(A).sum();
+        for(int i = (int)N-1; i >= 0; i--){
+            if(K == 0) break;
+            sum -= A[i];
+            K--;
+        }
 
         System.out.println(sum);
     }

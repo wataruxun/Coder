@@ -64,6 +64,10 @@
 
 ## 成長日記(過去問など)
 
+### 2022/04/03
+
+- 解き直し：[abc-246-c](https://atcoder.jp/contests/abc184/tasks/abc246_c)
+
 ### 202X/MM/dd
 
 タスク
